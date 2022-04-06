@@ -1,3 +1,6 @@
+-- \c books;
+\c books_test;
+
 CREATE TABLE books (
   isbn TEXT PRIMARY KEY,
   amazon_url TEXT,
